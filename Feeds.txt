@@ -1,0 +1,5 @@
+` RSS feeds from nyaa.si
+` These are search result RSS feeds from nyaa.si
+` Demo feeds:
+https://nyaa.si/?page=rss&q=subsplease+720+urasekai&c=1_2&f=0
+https://nyaa.si/?page=rss&q=subsplease+720+strike&c=1_2&f=0

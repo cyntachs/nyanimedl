@@ -1,0 +1,18 @@
+[Unit]
+Description=NyanimeDL Torrent Monitor Service
+After=network.target
+
+[Service]
+WorkingDirectory=/mnt/sdb1/NyanimeDL
+StandardOutput=journal+console
+Type=simple
+User=user
+Group=user
+
+ExecStart=/mnt/sdb1/NyanimeDL/nyanimedl.py
+
+Restart=on-failure
+RestartSec=60s
+
+[Install]
+WantedBy=multi-user.target
